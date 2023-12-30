@@ -1,0 +1,5 @@
+type variableName = value;
+
+
+String name = "John";
+System.out.println(name);
