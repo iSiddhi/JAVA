@@ -1,0 +1,157 @@
+custom branding logo
+MESSAGES
+Public Chat
+NOTES
+Shared Notes
+Locked by (Moderator)
+USERS (116)
+12
+12218533 - SIDDHI PATEL 
+(You)
+Locked | Mobile
+Dr
+Dr. Chirag Sharma 
+12
+12200271 - Kamadula Siddartha 
+Locked | Mobile
+12
+12200507 - Rajdeep Bhattacharjee 
+Locked | Mobile
+12
+12200729 - Aryan Raj 
+Locked
+12
+12201583 - Javed khan 
+Locked | Mobile
+12
+12201654 - Akanksha Korasikha 
+Locked | Mobile
+12
+12201766 - Siddhant Dubey 
+Locked
+12
+12203186 - Dibyam . 
+Locked | Mobile
+12
+12203227 - Abbineni Roshan Chowdary 
+Locked
+12
+12203463 - Annu Singh 
+Locked
+12
+12203608 - chinthada divakar 
+Locked
+12
+12205478 - Vikrant . 
+Locked
+12
+12205493 - Rohit Kumar 
+Locked
+12
+12205653 - Aditya 
+Locked
+12
+12205929 - Aditya Vijay Singh 
+Locked | Mobile
+12
+12206301 - Adwit Kumar 
+Locked | Mobile
+12
+12206530 - ADITYA SRIVASTAVA 
+Locked | Mobile
+12
+12206615 - Yaman Sharma 
+Locked
+12
+12206752 - Vicky Kumar 
+Locked | Mobile
+12
+12206831 - Tanushree Srivastava 
+Locked
+12
+12207100 - Aman Garg 
+Locked
+12
+12209421 - Nishant Raj 
+Locked
+12
+12209584 - Rajnish Kumar Manish 
+Locked | Mobile
+12
+12210043 - Abhishek Kumar R . 
+Locked
+12
+12210091 - Bhanu uday sharma 
+Locked
+12
+12210335 - Vanshika Panwar 
+Locked
+12
+12210531 - Kartik Nigam 
+Locked
+12
+12210640 - Manu yadav 
+Locked
+12
+12210684 - Jay Bhandari 
+Locked
+12
+12210732 - Ramji Porwal 
+Locked | Mobile
+12
+12210908 - Jeevan Pilla 
+Locked
+12
+12211260 - KOKKIRIGEDDA DINESH KUMAR 
+Locked | Mobile
+12
+12211471 - Shiv Kumar Purbay 
+Locked
+12
+12211854 - Bareddy Kavya 
+Locked | Mobile
+12
+12211949 - Aniket Kumar 
+Locked | Mobile
+12
+12212136 - Nikhil Kumar 
+Locked
+
+12
+12206615 - Yaman Sharma
+7:32 PM
+5
+
+Dr
+Dr. Chirag Sharma
+7:35 PM
+#include<iostream>
+#include<conio.h>
+using namespace std;
+class student
+{
+int reg;
+float cgpa;
+char name[20];
+public:
+void input()
+{
+cout<<"Enter the details";
+cin>>reg>>cgpa>>name;
+}
+void output()
+{
+cout<<"Display the details";
+cout<<reg<<endl<<cgpa<<endl<<name;
+}
+};
+main()
+{
+int i;
+student obj[5];//array of object
+for(i=0;i<5;i++)
+obj[i].input();
+for(i=0;i<5;i++)
+obj[i].output();
+getch();
+}
